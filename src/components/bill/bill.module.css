@@ -1,0 +1,35 @@
+.homeLeftPart {
+  margin-top: 1rem;
+  width: 40%;
+  max-height: 85vh;
+  overflow: scroll;
+}
+
+.homeRightPart {
+  width: 55%;
+  height: 80vh;
+  overflow: scroll;
+}
+
+.filter {
+  height: 2.4rem;
+  margin-right: 0.5rem;
+}
+
+.homeBillWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+  .homeBillWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .homeLeftPart {
+    width: 100%;
+  }
+  .homeRightPart {
+    width: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+.card {
+  border: 0.5px solid #e6e6e6;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.08);
+  max-width: 28rem;
+  margin-bottom: 1rem;
+}
+
+.pill {
+  margin: 0 0 0.5rem 0.5rem;
+  padding: 0.25rem 0.5rem;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.heading {
+  padding: 1rem;
+}
+
+.price {
+  padding: 1rem;
+}
